@@ -9,7 +9,7 @@ headers["Accept"] = "application/json"
 conn = mysql.connector.connect(
     host = "localhost",
     user = "root",
-    password = "Jayjagtap@2291",
+    password = "your_password",
     database = "todolist"
     )
 cursor = conn.cursor()
